@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/limiar_imagem"
+        style="@style/AppTheme"
+        />
+
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:max="255"
+        />
+
+    <TextView
+        android:id="@+id/qtde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginLeft="29dp"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/galeria"
+        style="@style/AppTheme"
+        android:layout_weight="0.28" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#ffffffff"
+        android:layout_weight="3.04">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animais"
+            android:id="@+id/radio_animal"
+            android:checked="true"
+            android:onClick="eventoClick" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cidades"
+            android:id="@+id/radio_cidade"
+            android:checked="false"
+            android:onClick="eventoClick" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carros"
+            android:id="@+id/radio_carro"
+            android:checked="false"
+            android:onClick="eventoClick"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gif"
+            android:id="@+id/radio_gif"
+            android:checked="false"
+            android:onClick="eventoClick"
+        />
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:id="@+id/sair"
+        android:layout_gravity="center_horizontal"
+    />
+
+
+</LinearLayout>

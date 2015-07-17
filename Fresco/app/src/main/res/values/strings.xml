@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fresco</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="galeria">Escolha uma Galeria de Imagens ou o gif para visualizar:</string>
+    <string name="limiar_imagem">Defina um limiar para visualizar as imagens:</string>
+</resources>
