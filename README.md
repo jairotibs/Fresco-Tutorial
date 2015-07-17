@@ -1,5 +1,5 @@
 #Tutorial Fresco
-Tutorial desenvolvido para a disciplina IF1001 do Centro de Informatica(CIn-UFPE) para mostrar o funcionamento da biblioteca Fresco
+Tutorial desenvolvido para a disciplina IF1001 do Centro de Informatica(CIn-UFPE) para mostrar o funcionamento da biblioteca Fresco.
 ##Fresco
 <p>É uma biblioteca poderosa para carregar imagens da Internet, de armazenamento local e de recursos locais em aplicações Android.</p>
 ##Página Oficial
@@ -103,7 +103,7 @@ int width = 500, height = 500;
 </code></pre></div>
 
 ###PipelineDraweeController
-<p>A classe PipelineDraweeController é uma outra maneira de fazer o controle de carregamento de imagens, assim como a classe DraweeController. A diferença é que ela utiliza também outras threads e armazena tudo em três caches</p>
+<p>A classe PipelineDraweeController é uma outra maneira de fazer o controle de carregamento de imagens, assim como a classe DraweeController. A diferença é que ela utiliza também outras threads e armazena tudo em três caches.</p>
 <div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">
 PipelineDraweeController controller = (PipelineDraweeController) Fresco.newDraweeControllerBuilder()
                 .setAutoPlayAnimations(true)
