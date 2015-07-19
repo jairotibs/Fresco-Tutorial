@@ -1,4 +1,4 @@
-#Tutorial Fresco
+#Fresco Tutorial
 Tutorial desenvolvido para a disciplina IF1001 do Centro de Informatica(CIn-UFPE) para mostrar o funcionamento da biblioteca Fresco.
 ##Fresco
 <p>É uma biblioteca poderosa para carregar imagens da Internet, de armazenamento local e de recursos locais em aplicações Android.</p>
